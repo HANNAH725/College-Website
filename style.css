@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body {
+    background-color: white;
+    background-image: url('admission2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+    font-weight: 300;
+    margin-left: 5px;
+
+    /*  */
+}
+
+.content {
+    text-align: center;
+    padding: 100px;
+    color: white;
+    margin: 5px;
+    padding: auto;
+    display: grid;
+}
+
+a{
+    color: blue;
+    text-align: center;
+    
+}
+
+a:visited {
+    color: blue;
+    
+}
+a:hover,a:active {
+    color:darkgrey;
+}
+
+h2 {
+    text-align: center;
+    
+}
+
+div {
+    background-color: white;
+    width: 40%;
+    margin-left: 35%;
+    align-content:center;
+}
+
+.student{
+    background-attachment: white;
+    width: 40%;
+    align-content: center;
+
+}
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+[type='radio'] {
+    margin: 20px;
+    color: red;
+}

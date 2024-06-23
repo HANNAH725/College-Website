@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Harshini">
+        <meta name="description" content="This will contain info about student">
+        <title>KGISL Institute of Technology</title>
+        <link rel="icon" href="logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css"
+    </head>
+    <body>
+        <div>
+        <h1>Student Portal</h1>
+    </div>
+        <hr>
+        <nav>
+            <div><a href="#">Home</a></div>
+        </nav>
+        <h2>Student Details</h2>
+        
+        <fieldset>
+        <form action>
+        <div class="student"> 
+        <p>Name</p>
+        
+        <input type="text" name="name" placeholder="name">
+        <br>
+        <p>Date of Birth</p>
+        <input type="date" size="30" min="2000-01-01">
+        
+        <br><br><legend>Gender</legend>
+        <label><input id="male" type="radio" name="male-female" value="Male" checked>Male</label>
+        <label><input id="female" type="radio" name="male-female" value="Female">Female</label>
+        <br><br><legend>Religion</legend>
+        <label><input id="hindu" type="checkbox" name="comunity" value="Hindu">Hindu</label>
+        <br><label><input id="christianity" type="checkbox" name="comunity" value="christianity">Christianity</label>
+        <br><label><input id="muslim" type="checkbox" name="comunity" value="muslim">Muslim</label>
+        
+        <br><label><input id="others" type="checkbox" name="comunity" value="others">Others</label>
+        <br><br>
+        <p>Mobile Number</p>
+        <input type ="text" name="mobile number" placeholder = "mobile number">
+       <br><br>
+        <p>Address</p>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea>
+        <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+</div>
+        <a href="/">Back to home page</a>
+    
+    </body>
+    </html>
